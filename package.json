@@ -1,0 +1,24 @@
+{
+  "name": "web-env-test",
+  "version": "5.7.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-dev": "npx webpack --config webpack.config.dev.js",
+    "build-prod": "npx webpack --config webpack.config.prod.js",
+    "start": "polymer serve --port 3574"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.2.1"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
