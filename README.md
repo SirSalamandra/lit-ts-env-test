@@ -3,7 +3,7 @@
 A sample of an application running with typescript, lit, dotenv and webpack.
 
 ## Usage
-- Copy all the configs in the 'sample.env' file to your '.env' file.
+- Create a new '.env' file and copy all the configs in the 'sample.env' to this new one.
 
 - Run the following commands: 
 
@@ -13,6 +13,8 @@ npm run watch
 npm run build-dev or npm run build-prod
 npm run start
 ```
+
+- Obs: In order to change the env configs, you need to stop the server and run again.
 
 ## Webpack version
 
