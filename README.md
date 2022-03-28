@@ -9,6 +9,7 @@ A sample of an application running with typescript, lit, dotenv and webpack.
 
 ```bash
 npm install
+npm run watch
 npm run build-dev or npm run build-prod
 npm run start
 ```
